@@ -21,6 +21,7 @@ const Exercises = ({exercises, bodyPart, setExercises}) => {
     };
 
     fetchExercisesData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bodyPart]);
 
   const [currentPage, setCurrentPage] = useState(1);
